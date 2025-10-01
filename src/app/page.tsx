@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
-import AiConversation from './aichat';
+import {ConversationDemo} from './aichat';
+
 
 const DayPlanner = () => {
   return (
@@ -91,7 +92,7 @@ const DayPlanner = () => {
                 <span className="truncate">AI Assistant</span>
               </div>
             </div>
-            <AiConversation />
+            <ConversationDemo />
           </div>
         </div>
       </div>
